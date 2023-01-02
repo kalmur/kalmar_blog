@@ -1,0 +1,239 @@
+h1 {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.pPadding {
+  padding-top: 1.5rem;
+  font-size: 16px;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+}
+
+h3 {
+  padding-top: 2rem;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #ABD9FF;
+}
+
+#bootstrap-overrides a {
+  color: black;
+  background-color: #ABD9FF;
+}
+
+#bootstrap-overrides a:hover {
+  color: #3b82f6;
+  background-color: #ABD9FF;
+  /* text-decoration: underline; */
+  border-bottom: 0.1px solid #3b82f6;
+  padding-bottom: 3px
+}
+
+.container {
+  color: black;
+}
+
+.navbar-right {
+  font-weight: bold;
+  color: black;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 35rem;
+  top: 12rem;
+}
+
+.topDiv p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+  padding-top: 4rem;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  background-color: #ABD9FF;
+}
+
+.navbar-header:hover {
+  text-decoration: none;
+}
+
+.trademark {
+  flex-basis: auto;
+}
+
+.footer {
+	display: block;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #ABD9FF;
+  color: black;
+  margin-top: 50px;
+}
+
+.footer ul {
+  flex: left;
+  margin: 0;
+  padding: 0;
+}
+
+.footer li {
+    display: inline;
+}
+
+
+.socials {
+  position: fixed;
+  text-align: right;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  background-color: #1e293b;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+
+.profilePic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 151px;
+  width: 151px;
+  margin-top: 1.5em;
+}
+
+.topDiv a {
+  background-color: #3b82f6;
+  color: black!IMPORTANT;
+  border: 0 solid #48a;
+  border-radius: 2px!IMPORTANT;
+  text-shadow: #484848 0.4px 0.4px;
+  padding: 1px 6px 2px;
+  text-decoration: none!IMPORTANT;
+  margin: 0.5rem 0.5rem;
+}
+
+.topDiv {
+  padding-top: 6rem;
+  text-align: center;
+}
+
+.introduction {
+  padding-top: 30px;
+}
+
+.virtual {
+  border-bottom: 1.5px solid #000;
+  border
+}
+
+/* .contactContainer {
+  width: 80%;
+  margin: 50px auto;
+} */
+
+.contact-box {
+  display: flex;
+}
+
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 45px;
+  background-color: white;
+}
+
+.contact-right {
+  flex-basis: 40%;
+  padding: 40px;
+  color: white;
+  background-color: #1e293b;
+}
+
+.contactContainer p {
+  margin-bottom: 40px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-row .input-group {
+  flex-basis: 45%;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: focus;
+  padding-bottom: 5px;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: focus;
+  padding: 10px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+button {
+  border: none;
+  outline: focus;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  color: white;
+  background-color: #1e293b;
+}
+
+.contact-left h4 {
+  color: #1e293b;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+.contact-right h4 {
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+tr td:first-child {
+  padding-right: 20px;
+}
+
+tr td {
+  padding-top: 30px;
+}
